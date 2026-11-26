@@ -1,0 +1,45 @@
+name: newsly
+description: "Lector de noticias de The Guardian con favoritos sin conexión."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  cached_network_image: ^3.4.1
+  cupertino_icons: ^1.0.9
+  dartz: ^0.10.1
+  dio: ^5.9.0
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_dotenv: ^6.0.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_widget_from_html_core: ^0.17.4
+  get_it: ^8.2.0
+  go_router: ^17.5.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  html: ^0.15.6
+  intl: ^0.20.2
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - config/
+  fonts:
+    - family: Source Serif 4
+      fonts:
+        - asset: assets/fonts/SourceSerif4.ttf
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf
